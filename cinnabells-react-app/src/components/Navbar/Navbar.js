@@ -1,26 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Navbar from 'react-bootstrap';
-const Navbar = () => {
-return (<div>Navbar</div>)
-}
-export default Navbar
-function Navbar(){
+import './Navbar.css';
+import {Navbar,Container} from 'react-bootstrap';
+
+export default Navigation
+function Navigation(){
     return(
-        <>
-        <Navbar bg="dark">
-  <Container>
-    <Navbar.Brand href="#home">
-      <img
-        src="/logo.svg"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-        alt="CinnaBells Logo"
-      />
-    </Navbar.Brand>
-  </Container>
+        <div className="App">
+         <Navbar bg="dark" variant="dark">
+    <Container>
+      <Navbar.Brand href="#home">
+        <img
+          alt=""
+          src="/logo.svg"
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{' '}
+      React Bootstrap
+      </Navbar.Brand>
+    </Container>
   </Navbar>
-        </>
+        </div>
     )
 }
