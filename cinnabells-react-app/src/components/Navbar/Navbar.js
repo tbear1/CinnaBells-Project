@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.css';
-import {Navbar,Container} from 'react-bootstrap';
+import {Navbar,Container,Nav} from 'react-bootstrap';
+import MenuList from './MenuList';
 
-export default Navigation
 function Navigation(){
     return(
         <div className="App">
@@ -19,7 +19,16 @@ function Navigation(){
       React Bootstrap
       </Navbar.Brand>
     </Container>
+    <Nav>
+          {
+            MenuList.map(elem=>(
+            <Nav.Link href={elem.url}>{elem.title}
+            </Nav.Link>
+            ))}
+            
+        </Nav>
   </Navbar>
         </div>
     )
 }
+export default Navigation
