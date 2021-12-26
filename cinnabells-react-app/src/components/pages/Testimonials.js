@@ -1,5 +1,5 @@
 
 const Testimonials = () => {
-    (<div>Testimonials</div>)
+    return (<div>Testimonials</div>)
     }
-    export default Testimonials
+    export default Testimonials;
