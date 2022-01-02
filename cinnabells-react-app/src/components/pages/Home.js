@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Image from'../../assets/rolls1.jpg';
 const Home = () => {
    return (<div>
       Cinnabells
       <body>
-      <image className='rolls1.jpg'>
+      <image scr={rolls1.jpg}>
       
       </image>
       </body>
