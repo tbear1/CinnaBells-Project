@@ -1,5 +1,6 @@
-import Image from './assets';
+
 const KeyFeature = () => {
-    return (<div>KeyFeature</div>)
+    return (<div>
+        </div>)
     }
     export default KeyFeature;

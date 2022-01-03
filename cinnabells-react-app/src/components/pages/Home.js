@@ -1,13 +1,14 @@
 import React from 'react';
-import Image from'../../assets/rolls1.jpg';
+import rolls4 from'../../assets/rolls4.jpg';
+import Css from '../PagesCss/Home.css';
+
 const Home = () => {
    return (<div>
-      Cinnabells
-      <body>
-      <image scr={rolls1.jpg}>
+      <img className="d-block w-100" src={rolls4} alt="home rolls">
       
-      </image>
-      </body>
+      
+      </img>
+   
       </div>)
     }
     export default Home;
